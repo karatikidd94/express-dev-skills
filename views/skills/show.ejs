@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Skill</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+ <body>
+    <h3><%= skill.skill %></h3>
+    <h3>Experience: <%= skill.done ? 'Yes' : 'No' %></h3>
+    <a href="/skills">Skills Page</a>
+    <a style="margin-left: 50px" href="/skills/<%= skill.id %>/edit">Edit Skill</a>
+ </body>
+</html>
